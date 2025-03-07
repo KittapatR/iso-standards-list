@@ -1,0 +1,86 @@
+{
+    "metamodel": [
+        {
+            "id": "XX.YY",
+            "description": "ISO standards harmonized stage code"
+        },
+        {
+            "title": "XX",
+            "description": "stages"
+        },
+        { 
+            "title": "YY",
+            "description": "substages"
+        }
+    ],
+    "vocabulary": {
+        "XX": [
+            { "code": "00", "name": "Preliminary" },
+            { "code": "10", "name": "Proposal" },
+            { "code": "20", "name": "Preparatory" },
+            { "code": "30", "name": "Committee" },
+            { "code": "40", "name": "Enquiry" },
+            { "code": "50", "name": "Approval" },
+            { "code": "60", "name": "Publication" },
+            { "code": "90", "name": "Review" }
+        ],
+        "YY": [
+            { "code": "00", "name": "Registration" },
+            { "code": "20", "name": "Start of main action" },
+            { "code": "60", "name": "Completion of main action" },
+            { "code": "90", "name": "Decision" },
+            { "code": "92", "name": "Repeat an earlier phase" },
+            { "code": "93", "name": "Repeat a current phase" },
+            { "code": "98", "name": "Abandon" },
+            { "code": "99", "name": "Proceed" }
+        ],
+        "XX.YY": [
+            { "code": "00.00", "name": "Proposal for new project received" },
+            { "code": "00.20", "name": "Proposal for new project under review" },
+            { "code": "00.60", "name": "Close of review" },
+            { "code": "00.98", "name": "Proposal for new project abandoned" },
+            { "code": "00.99", "name": "Approval to ballot proposal for new project" },
+            { "code": "10.00", "name": "Proposal for new project registered" },
+            { "code": "10.20", "name": "New project ballot initiated" },
+            { "code": "10.60", "name": "Close of voting" },
+            { "code": "10.92", "name": "Proposal returned to submitter for further definition" },
+            { "code": "10.98", "name": "New project rejected" },
+            { "code": "10.99", "name": "New project approved" },
+            { "code": "20.00", "name": "New project registered in TC/SC work programme" },
+            { "code": "20.20", "name": "Working draft (WD) study initiated" },
+            { "code": "20.60", "name": "Close of comment period" },
+            { "code": "20.98", "name": "Project deleted" },
+            { "code": "20.99", "name": "WD approved for registration as CD" },
+            { "code": "30.00", "name": "Committee draft (CD) registered" },
+            { "code": "30.20", "name": "CD consultation initiated" },
+            { "code": "30.60", "name": "Close of comment period" },
+            { "code": "30.92", "name": "CD referred back to Working Group" },
+            { "code": "30.98", "name": "Project cancelled" },
+            { "code": "30.99", "name": "CD approved for registration as DIS" },
+            { "code": "40.00", "name": "DIS registered" },
+            { "code": "40.20", "name": "DIS ballot initiated: 12 weeks" },
+            { "code": "40.60", "name": "Close of voting" },
+            { "code": "40.92", "name": "Full report circulated: DIS referred back to TC or SC" },
+            { "code": "40.93", "name": "Full report circulated: decision for new DIS ballot" },
+            { "code": "40.98", "name": "Project cancelled" },
+            { "code": "40.99", "name": "Full report circulated: DIS approved for registration as FDIS" },
+            { "code": "50.00", "name": "Final text received or FDIS registered for formal approval" },
+            { "code": "50.20", "name": "Proof sent to secretariat or FDIS ballot initiated: 8 weeks" },
+            { "code": "50.60", "name": "Close of voting. Proof returned by secretariat" },
+            { "code": "50.92", "name": "FDIS or proof referred back to TC or SC" },
+            { "code": "50.98", "name": "Project cancelled" },
+            { "code": "50.99", "name": "FDIS or proof approved for publication" },
+            { "code": "60.00", "name": "International Standard under Publication" },
+            { "code": "60.60", "name": "International Standard published" },
+            { "code": "90.20", "name": "International Standard under systematic review" },
+            { "code": "90.60", "name": "Close of review" },
+            { "code": "90.92", "name": "International Standard to be revised" },
+            { "code": "90.93", "name": "International Standard confirmed" },
+            { "code": "90.99", "name": "Withdrawal of International Standard proposed by TC or SC" },
+            { "code": "95.20", "name": "Withdrawal ballot initiated" },
+            { "code": "95.60", "name": "Close of voting" },
+            { "code": "95.92", "name": "Decision not to withdraw International Standard" },
+            { "code": "95.99", "name": "Withdrawal of International Standard" }
+        ]
+    }
+}
