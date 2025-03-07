@@ -22,7 +22,8 @@
             { "code": "40", "name": "Enquiry" },
             { "code": "50", "name": "Approval" },
             { "code": "60", "name": "Publication" },
-            { "code": "90", "name": "Review" }
+            { "code": "90", "name": "Review" },
+            { "code": "95", "name": "Withdrawal" }
         ],
         "YY": [
             { "code": "00", "name": "Registration" },
